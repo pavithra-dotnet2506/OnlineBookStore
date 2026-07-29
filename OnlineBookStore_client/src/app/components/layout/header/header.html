@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+  <div class="container">
+    <!-- Logo -->
+
+    <a class="navbar-brand fw-bold fs-3" routerLink="/"> 📚 BookStore </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <!-- Left Menu -->
+
+      <ul class="navbar-nav ms-4">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/books">Books</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/categories">Categories</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/new-arrivals"> New Arrivals </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/best-sellers"> Best Sellers </a>
+        </li>
+      </ul>
+
+      <!-- Search -->
+
+      <form class="d-flex ms-auto me-3">
+        <input class="form-control me-2" type="search" placeholder="Search books..." />
+
+        <button class="btn btn-warning">Search</button>
+      </form>
+
+      <!-- Cart -->
+
+      <a routerLink="/cart" class="btn btn-outline-light position-relative me-2">
+        🛒 Cart
+
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+        >
+          2
+        </span>
+      </a>
+
+      <!-- Login -->
+
+      <!-- <a routerLink="/login" class="btn btn-primary"> Login </a> -->
+      <!-- <button class="btn btn-danger" type="button" (click)="onLogout()">Logout</button> -->
+      @if (userId) {
+        <button class="btn btn-danger" type="button" (click)="onLogout()">Logout</button>
+      } @else {
+        <button class="btn btn-primary" (click)="router.navigate(['/login'])">Login</button>
+      }
+    </div>
+  </div>
+</nav>

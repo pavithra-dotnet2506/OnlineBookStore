@@ -1,0 +1,16 @@
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ffc107;
+}
+
+i {
+  cursor: pointer;
+}
+
+i:hover {
+  color: #ffc107;
+}

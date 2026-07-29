@@ -1,0 +1,21 @@
+.navbar-brand {
+  color: #ffc107 !important;
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.btn {
+  border-radius: 20px;
+}
