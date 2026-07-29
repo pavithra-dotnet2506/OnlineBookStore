@@ -1,0 +1,11 @@
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\bin\Debug\net9.0\OnlineBookStore.Domain.deps.json
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\bin\Debug\net9.0\OnlineBookStore.Domain.dll
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\bin\Debug\net9.0\OnlineBookStore.Domain.pdb
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.AssemblyInfoInputs.cache
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.AssemblyInfo.cs
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.dll
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\refint\OnlineBookStore.Domain.dll
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.pdb
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\ref\OnlineBookStore.Domain.dll
