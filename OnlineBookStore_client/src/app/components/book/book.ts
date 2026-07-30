@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ChangeDetectorRef } from '@angular/core';
 import { ElementRef, ViewChild } from '@angular/core';
+import { Category } from '../../service/category';
 
 @Component({
   selector: 'app-book',
@@ -48,6 +49,7 @@ export class Book implements OnInit {
   constructor(
     private http: HttpClient,
     private cdr: ChangeDetectorRef,
+    private categorySrvc: Category,
   ) {
     //this.getBooks();
   }
@@ -101,7 +103,7 @@ export class Book implements OnInit {
       error: (err) => console.error(err),
     });
   }
-  getCategory() {
+  getCategory1() {
     this.http.get<any>(this.apiUrl + 'category').subscribe({
       next: (res) => {
         console.log('Response:', res);
@@ -123,6 +125,15 @@ export class Book implements OnInit {
         console.log('Book List:', this.bookList);
       },
       error: (err) => console.error(err),
+    });
+  }
+  getCategory() {
+    this.categorySrvc.getCategories().subscribe((data) => {
+      this.categoryList = data;
+      this.cdr.markForCheck();
+      //debugger;
+      //console.log('Category list from service :' + this.categoryList);
+      //debugger;
     });
   }
 

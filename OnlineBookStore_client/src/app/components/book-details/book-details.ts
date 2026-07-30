@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Category } from '../../service/category';
 
 @Component({
   selector: 'app-book-details',
@@ -19,11 +20,13 @@ export class BookDetails implements OnInit {
     price: 0,
     imageUrl: '',
   };
+  categoryName: string = '';
   userId = localStorage.getItem('onlineBookStoreUsr');
   constructor(
     private route: ActivatedRoute,
     private http: HttpClient,
     private cdr: ChangeDetectorRef,
+    private categorySrvc: Category,
   ) {}
 
   ngOnInit() {
@@ -47,6 +50,7 @@ export class BookDetails implements OnInit {
         console.log(res.data);
 
         this.book = res.data;
+        this.categoryName = this.categorySrvc.getCategoryName(this.book.categoryId);
         this.cdr.markForCheck();
       },
 

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { ChangeDetectorRef, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { Category } from '../../service/category';
 
 @Component({
   selector: 'app-book-listing',
@@ -14,6 +15,7 @@ export class BookListing {
   apiUrl = 'https://localhost:7016/api/';
   bookList: any[] = [];
   categoryList: any[] = [];
+  categoryMap: { [key: number]: string } = {};
 
   userId = localStorage.getItem('onlineBookStoreUsr');
 
@@ -35,13 +37,14 @@ export class BookListing {
   constructor(
     private http: HttpClient,
     private cdr: ChangeDetectorRef,
+    private categorySrvc: Category,
   ) {
     //this.getBooks();
   }
 
   ngOnInit(): void {
     console.log('Book Component Loaded');
-    //this.getCategory();
+    this.getCategory();
     this.getBooks();
   }
 
@@ -71,6 +74,62 @@ export class BookListing {
       error: (err) => console.error(err),
     });
   }
+  // getCategory() {
+  //   this.http.get<any>(this.apiUrl + 'category').subscribe({
+  //     next: (res) => {
+  //       //console.log('Response:', res);
+  //       //console.log('Data:', res.data);
+
+  //       this.categoryList = res.data;
+  //       //this.bookList = [...res.data];
+
+  //       //this.cdr.detectChanges();
+
+  //       //this.cdr.markForCheck();
+
+  //       // Difference:
+
+  //       // Method	Usage
+  //       // detectChanges()	Immediately refreshes the component
+  //       // markForCheck()	Marks it for the next Angular check cycle
+
+  //       //console.log('Book List:', this.bookList);
+  //     },
+  //     error: (err) => console.error(err),
+  //   });
+  // }
+
+  getCategory() {
+    this.categorySrvc.getCategories().subscribe((data) => {
+      this.categoryList = data;
+
+      data.forEach((category: any) => {
+        this.categoryMap[category.id] = category.name;
+      });
+
+      //this.cdr.markForCheck();
+      //debugger;
+      //console.log('Category list from service :' + this.categoryList);
+      //debugger;
+    });
+  }
+  // searchBooks() {
+  //   const search = this.searchText.toLowerCase().trim();
+
+  //   if (search === '') {
+  //     this.filteredBookList = this.bookList;
+
+  //     return;
+  //   }
+
+  //   this.filteredBookList = this.bookList.filter(
+  //     (book) =>
+  //       book.title?.toLowerCase().includes(search) ||
+  //       book.author?.toLowerCase().includes(search) ||
+  //       book.categoryName?.toLowerCase().includes(search) ||
+  //       book.isbn?.toLowerCase().includes(search),
+  //   );
+  // }
 
   searchBooks() {
     const search = this.searchText.toLowerCase().trim();
@@ -81,12 +140,15 @@ export class BookListing {
       return;
     }
 
-    this.filteredBookList = this.bookList.filter(
-      (book) =>
+    this.filteredBookList = this.bookList.filter((book) => {
+      const categoryName = this.categoryMap[book.categoryId]?.toLowerCase() || '';
+
+      return (
         book.title?.toLowerCase().includes(search) ||
         book.author?.toLowerCase().includes(search) ||
-        //book.categoryName?.toLowerCase().includes(search) ||
-        book.isbn?.toLowerCase().includes(search),
-    );
+        categoryName.includes(search) ||
+        book.isbn?.toLowerCase().includes(search)
+      );
+    });
   }
 }

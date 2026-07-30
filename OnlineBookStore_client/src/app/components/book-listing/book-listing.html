@@ -36,7 +36,7 @@
           <div class="card-body p-3">
             <!-- Category -->
 
-            <span class="badge bg-primary mb-2"> categoryName -- {{ book.categoryName }} </span>
+            <span class="badge bg-primary mb-2"> {{ categoryMap[book.categoryId] }} </span>
 
             <!-- Title -->
 
@@ -79,7 +79,7 @@
                 View Details
               </button>
               @if (userId) {
-                <button class="btn btn-success btn-sm">🛒 Add Cart</button>
+                <button class="btn btn-success btn-sm">🛒 Add Cart -- {{ userId }}</button>
               }
             </div>
           </div>
