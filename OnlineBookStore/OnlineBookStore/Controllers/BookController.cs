@@ -256,6 +256,7 @@ namespace OnlineBookStore.API.Controllers
                 return StatusCode(500, new
                 {
                     Status = false,
+
                     Message = ex.Message
                 });
             }

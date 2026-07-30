@@ -1,0 +1,35 @@
+.book-card {
+  transition: 0.3s;
+
+  border-radius: 15px;
+
+  overflow: hidden;
+}
+
+.book-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 320px;
+
+  object-fit: cover;
+}
+
+.card-title {
+  min-height: 60px;
+}
+
+.badge {
+  width: max-content;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+.card-footer {
+  padding-bottom: 20px;
+}

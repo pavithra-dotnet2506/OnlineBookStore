@@ -1,0 +1,94 @@
+<div class="container my-5">
+  <!-- Header -->
+  <div class="row mb-4 align-items-center">
+    <div class="col-md-6">
+      <h2 class="fw-bold text-primary">📚 Available Books</h2>
+    </div>
+
+    <div class="col-md-6">
+      <input
+        type="text"
+        class="form-control shadow-sm"
+        placeholder="Search books..."
+        [(ngModel)]="searchText"
+        (input)="searchBooks()"
+      />
+    </div>
+  </div>
+
+  <!-- Book Cards -->
+
+  <div class="row g-3">
+    @for (book of filteredBookList; track book.id) {
+      <!-- 5 cards per row -->
+      <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-6">
+        <div class="card book-card h-100 shadow-sm border-0">
+          <!-- Book Image -->
+
+          <div class="image-container">
+            <img
+              [src]="'https://localhost:7016/Images/' + book.imageUrl"
+              class="card-img-top"
+              alt="Book Image"
+            />
+          </div>
+
+          <div class="card-body p-3">
+            <!-- Category -->
+
+            <span class="badge bg-primary mb-2"> categoryName -- {{ book.categoryName }} </span>
+
+            <!-- Title -->
+
+            <h6 class="card-title fw-bold book-title">
+              {{ book.title }}
+            </h6>
+
+            <!-- Author -->
+
+            <p class="text-muted small mb-1">
+              <i class="bi bi-person"></i>
+
+              {{ book.author }}
+            </p>
+
+            <!-- ISBN -->
+
+            <p class="small text-secondary mb-2">
+              ISBN:
+              {{ book.isbn }}
+            </p>
+
+            <!-- Rating -->
+
+            <div class="rating small mb-2">⭐⭐⭐⭐⭐</div>
+
+            <!-- Price -->
+
+            <h5 class="text-success fw-bold mb-0">${{ book.price }}</h5>
+          </div>
+
+          <!-- Buttons -->
+
+          <div class="card-footer bg-white border-0 p-3">
+            <div class="d-grid gap-2">
+              <button
+                class="btn btn-outline-primary btn-sm"
+                [routerLink]="['/bookdetails', book.id]"
+              >
+                View Details
+              </button>
+
+              <button class="btn btn-success btn-sm">🛒 Add Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+    @if (filteredBookList.length === 0) {
+      <div class="text-center mt-5">
+        <h5 class="text-muted">No books found</h5>
+      </div>
+    }
+  </div>
+</div>

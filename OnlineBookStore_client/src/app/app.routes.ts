@@ -2,11 +2,13 @@ import { Routes } from '@angular/router';
 import { Book } from './components/book/book';
 import { Login } from './components/login/login';
 import { Layout } from './components/layout/layout/layout';
+import { BookListing } from './components/book-listing/book-listing';
+import { BookDetails } from './components/book-details/book-details';
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'login',
+    redirectTo: 'booklist',
     pathMatch: 'full',
   },
   {
@@ -23,6 +25,16 @@ export const routes: Routes = [
       //   component: Admin,
       //   //canActivate: [authGuard],
       // },
+      {
+        path: 'booklist',
+        component: BookListing,
+        //canActivate: [authGuard],
+      },
+      {
+        path: 'bookdetails/:id',
+        component: BookDetails,
+        //canActivate: [authGuard],
+      },
       {
         path: 'book',
         component: Book,
