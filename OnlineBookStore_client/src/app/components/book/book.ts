@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { ChangeDetectorRef } from '@angular/core';
 import { ElementRef, ViewChild } from '@angular/core';
 import { Category } from '../../service/category';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-book',
@@ -50,6 +51,7 @@ export class Book implements OnInit {
     private http: HttpClient,
     private cdr: ChangeDetectorRef,
     private categorySrvc: Category,
+    private toastr: ToastrService,
   ) {
     //this.getBooks();
   }
@@ -160,7 +162,10 @@ export class Book implements OnInit {
     console.log('formData -- ' + formData);
     //this.http.post(this.apiUrl + 'book', this.bookObj).subscribe(() => {
     this.http.post(this.apiUrl + 'book', formData).subscribe(() => {
-      alert('Book Added');
+      //alert('Book Added');
+      this.toastr.success('Book Added Successfully!', 'Success');
+      //this.toastr.error('Failed to add book.', 'Error');
+
       this.resetForm();
       this.getBooks();
     });
@@ -173,7 +178,8 @@ export class Book implements OnInit {
 
   updateBook() {
     this.http.put(`${this.apiUrl + 'book'}/${this.bookObj.id}`, this.bookObj).subscribe(() => {
-      alert('Updated Successfully');
+      //alert('Updated Successfully');
+      this.toastr.success('Book Updated Successfully!', 'Success');
       this.resetForm();
       this.getBooks();
     });
@@ -182,7 +188,9 @@ export class Book implements OnInit {
   deleteBook(id: number) {
     if (confirm('Delete this book?')) {
       this.http.delete(`${this.apiUrl + 'book'}/${id}`).subscribe(() => {
-        alert('Deleted');
+        //alert('Deleted');
+        this.toastr.success('Book Deleted Successfully!', 'Success');
+
         this.getBooks();
       });
     }
