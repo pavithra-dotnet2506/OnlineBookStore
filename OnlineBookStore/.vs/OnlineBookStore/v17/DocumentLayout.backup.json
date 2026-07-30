@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|solutionrelative:onlinebookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD18FD3-D24B-4613-979A-62AFD512C1E4}|OnlineBookStore.Domain\\OnlineBookStore.Domain.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore.domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD18FD3-D24B-4613-979A-62AFD512C1E4}|OnlineBookStore.Domain\\OnlineBookStore.Domain.csproj|solutionrelative:onlinebookstore.domain\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7B55314-01EA-48E2-AE0E-FF1626A5C012}|OnlineBookStore.App\\OnlineBookStore.App.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore.app\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7B55314-01EA-48E2-AE0E-FF1626A5C012}|OnlineBookStore.App\\OnlineBookStore.App.csproj|solutionrelative:onlinebookstore.app\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|solutionrelative:onlinebookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|solutionrelative:onlinebookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|solutionrelative:onlinebookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FD18FD3-D24B-4613-979A-62AFD512C1E4}|OnlineBookStore.Domain\\OnlineBookStore.Domain.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore.domain\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FD18FD3-D24B-4613-979A-62AFD512C1E4}|OnlineBookStore.Domain\\OnlineBookStore.Domain.csproj|solutionrelative:onlinebookstore.domain\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|solutionrelative:onlinebookstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABE8A5D0-6300-428E-A409-F8A88DE154A1}|OnlineBookStore.Infra\\OnlineBookStore.Infra.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore.infra\\migrations\\20260729212351_addedimageurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABE8A5D0-6300-428E-A409-F8A88DE154A1}|OnlineBookStore.Infra\\OnlineBookStore.Infra.csproj|solutionrelative:onlinebookstore.infra\\migrations\\20260729212351_addedimageurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,120 +17,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20260729212351_AddedImageUrl.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\Migrations\\20260729212351_AddedImageUrl.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore.Infra\\Migrations\\20260729212351_AddedImageUrl.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\Migrations\\20260729212351_AddedImageUrl.cs",
-              "RelativeToolTip": "OnlineBookStore.Infra\\Migrations\\20260729212351_AddedImageUrl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T21:23:52.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Domain\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore.Domain\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Domain\\Models\\Book.cs",
-              "RelativeToolTip": "OnlineBookStore.Domain\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T20:48:12.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Domain\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore.Domain\\Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Domain\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "OnlineBookStore.Domain\\Models\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T02:59:26.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\appsettings.json",
-              "RelativeDocumentMoniker": "OnlineBookStore\\appsettings.json",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\appsettings.json",
-              "RelativeToolTip": "OnlineBookStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-29T02:57:05.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "OnlineBookStore\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T00:40:49.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Program.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore\\Program.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Program.cs",
-              "RelativeToolTip": "OnlineBookStore\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAzwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T23:14:06.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore\\Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\BookController.cs",
-              "RelativeToolTip": "OnlineBookStore\\Controllers\\BookController.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAzwOMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-28T21:37:18.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "OnlineBookStore\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T03:00:17.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookDto.cs",
-              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.App\\DTOs\\Book\\BookDto.cs",
-              "RelativeDocumentMoniker": "OnlineBookStore.App\\DTOs\\Book\\BookDto.cs",
-              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.App\\DTOs\\Book\\BookDto.cs",
-              "RelativeToolTip": "OnlineBookStore.App\\DTOs\\Book\\BookDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-29T21:05:27.329Z"
             }
           ]
         }

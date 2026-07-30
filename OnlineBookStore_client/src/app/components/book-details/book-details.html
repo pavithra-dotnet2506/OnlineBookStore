@@ -46,10 +46,13 @@
             </table>
 
             <div class="my-4">⭐⭐⭐⭐⭐</div>
+            @if (userId) {
+              <button class="btn btn-success btn-lg me-3">🛒 Add To Cart</button>
 
-            <button class="btn btn-success btn-lg me-3">🛒 Add To Cart</button>
-
-            <button class="btn btn-primary btn-lg">Buy Now</button>
+              <button class="btn btn-primary btn-lg">Buy Now</button>
+            } @else {
+              <span class="text-danger"> Please login to buy this book!!! </span>
+            }
           </div>
         </div>
       </div>

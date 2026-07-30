@@ -15,6 +15,8 @@ export class BookListing {
   bookList: any[] = [];
   categoryList: any[] = [];
 
+  userId = localStorage.getItem('onlineBookStoreUsr');
+
   searchText: string = '';
 
   filteredBookList: any[] = [];

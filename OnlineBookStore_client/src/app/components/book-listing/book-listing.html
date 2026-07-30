@@ -78,8 +78,9 @@
               >
                 View Details
               </button>
-
-              <button class="btn btn-success btn-sm">🛒 Add Cart</button>
+              @if (userId) {
+                <button class="btn btn-success btn-sm">🛒 Add Cart</button>
+              }
             </div>
           </div>
         </div>

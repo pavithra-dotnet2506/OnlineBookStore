@@ -19,7 +19,7 @@ export class BookDetails implements OnInit {
     price: 0,
     imageUrl: '',
   };
-
+  userId = localStorage.getItem('onlineBookStoreUsr');
   constructor(
     private route: ActivatedRoute,
     private http: HttpClient,
