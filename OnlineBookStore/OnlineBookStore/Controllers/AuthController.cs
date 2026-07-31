@@ -52,7 +52,7 @@ namespace OnlineBookStore.API.Controllers
                 new Claim(ClaimTypes.NameIdentifier,user.Id.ToString()),
                 new Claim(ClaimTypes.Name,user.Name),
                 new Claim(ClaimTypes.Email,user.Email),
-                //new Claim(ClaimTypes.Role,user.Role)
+                new Claim(ClaimTypes.Role,user.Role)
             };
 
                 var key = new SymmetricSecurityKey(
@@ -80,7 +80,7 @@ namespace OnlineBookStore.API.Controllers
                         user.Id,
                         user.Name,
                         user.Email,
-                        //user.Role
+                        user.Role
                     }
                 });
             }

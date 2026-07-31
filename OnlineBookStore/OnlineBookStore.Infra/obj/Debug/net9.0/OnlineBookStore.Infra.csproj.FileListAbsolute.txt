@@ -17,3 +17,4 @@ C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\ref\OnlineBookStore.Infra.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.Infra.runtimeconfig.json
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.genruntimeconfig.cache
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.sourcelink.json

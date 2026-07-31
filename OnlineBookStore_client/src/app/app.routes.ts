@@ -4,6 +4,7 @@ import { Login } from './components/login/login';
 import { Layout } from './components/layout/layout/layout';
 import { BookListing } from './components/book-listing/book-listing';
 import { BookDetails } from './components/book-details/book-details';
+import { authGuard } from './guard/auth-guard';
 
 export const routes: Routes = [
   {
@@ -38,7 +39,7 @@ export const routes: Routes = [
       {
         path: 'book',
         component: Book,
-        //canActivate: [authGuard],
+        canActivate: [authGuard],
       },
     ],
   },

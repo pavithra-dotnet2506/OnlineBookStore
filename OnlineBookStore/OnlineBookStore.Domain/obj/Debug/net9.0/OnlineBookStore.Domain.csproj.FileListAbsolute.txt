@@ -9,3 +9,4 @@ C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domai
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\refint\OnlineBookStore.Domain.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.pdb
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\ref\OnlineBookStore.Domain.dll
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Domain\obj\Debug\net9.0\OnlineBookStore.Domain.sourcelink.json

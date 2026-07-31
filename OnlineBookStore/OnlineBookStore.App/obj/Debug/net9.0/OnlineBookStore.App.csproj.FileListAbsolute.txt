@@ -13,3 +13,4 @@ C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\o
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\refint\OnlineBookStore.App.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.pdb
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\ref\OnlineBookStore.App.dll
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.sourcelink.json

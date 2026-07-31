@@ -25,8 +25,8 @@ namespace OnlineBookStore.Infra.DBContext
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<User>().HasData(
-                new User { Id = 1, Name = "Admin", Email="admin@test.com", Password="admin@123" },
-                new User { Id = 2, Name = "Customer", Email = "customer@test.com", Password = "cust@123" }                
+                new User { Id = 1, Name = "Admin", Email="admin@test.com", Password="admin@123",Role="Admin" },
+                new User { Id = 2, Name = "Customer", Email = "customer@test.com", Password = "cust@123",Role= "Customer"}                
                 );
 
             modelBuilder.Entity<Category>().HasData(
@@ -44,7 +44,8 @@ namespace OnlineBookStore.Infra.DBContext
                     Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                     ISBN = "SWD9999001",                    
                     Price = 90,                    
-                    CategoryId = 1
+                    CategoryId = 1,
+                    ImageUrl=""
                 },
                 new Book
                 {
@@ -56,7 +57,8 @@ namespace OnlineBookStore.Infra.DBContext
                    
                     Price = 30,
                     
-                    CategoryId = 1
+                    CategoryId = 1,
+                    ImageUrl = ""
                 },
                 new Book
                 {
@@ -68,7 +70,8 @@ namespace OnlineBookStore.Infra.DBContext
                     
                     Price = 50,
                     
-                    CategoryId = 1
+                    CategoryId = 1,
+                    ImageUrl = ""
                 },
                 new Book
                 {
@@ -79,7 +82,8 @@ namespace OnlineBookStore.Infra.DBContext
                     ISBN = "WS3333333301",
                     
                     Price = 65,
-                    CategoryId = 2
+                    CategoryId = 2,
+                    ImageUrl = ""
                 },
                 new Book
                 {
@@ -90,7 +94,8 @@ namespace OnlineBookStore.Infra.DBContext
                     ISBN = "SOTJ1111111101",
                     
                     Price = 27,
-                    CategoryId = 2
+                    CategoryId = 2,
+                    ImageUrl = ""
                 },
                 new Book
                 {
@@ -101,7 +106,8 @@ namespace OnlineBookStore.Infra.DBContext
                     ISBN = "FOT000000001",
                     
                     Price = 23,
-                    CategoryId = 3
+                    CategoryId = 3,
+                    ImageUrl = ""
                 });
         }
 

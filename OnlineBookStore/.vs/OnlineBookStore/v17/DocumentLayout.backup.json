@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\Migrations\\20260731015127_addRoleInUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineBookStore.Infra\\Migrations\\20260731015127_addRoleInUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF5E7AC-F6EF-4AD5-A843-3710395A4C60}|OnlineBookStore\\OnlineBookStore.API.csproj|solutionrelative:onlinebookstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE8A5D0-6300-428E-A409-F8A88DE154A1}|OnlineBookStore.Infra\\OnlineBookStore.Infra.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore.infra\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE8A5D0-6300-428E-A409-F8A88DE154A1}|OnlineBookStore.Infra\\OnlineBookStore.Infra.csproj|solutionrelative:onlinebookstore.infra\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD18FD3-D24B-4613-979A-62AFD512C1E4}|OnlineBookStore.Domain\\OnlineBookStore.Domain.csproj|c:\\users\\pavik\\handson\\onlinebookstore_fsd\\onlinebookstore\\onlinebookstore.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD18FD3-D24B-4613-979A-62AFD512C1E4}|OnlineBookStore.Domain\\OnlineBookStore.Domain.csproj|solutionrelative:onlinebookstore.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +35,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260731015127_addRoleInUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\Migrations\\20260731015127_addRoleInUserTable.cs",
+              "RelativeDocumentMoniker": "OnlineBookStore.Infra\\Migrations\\20260731015127_addRoleInUserTable.cs",
+              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\Migrations\\20260731015127_addRoleInUserTable.cs",
+              "RelativeToolTip": "OnlineBookStore.Infra\\Migrations\\20260731015127_addRoleInUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T01:51:28.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OnlineBookStore.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Domain\\Models\\User.cs",
+              "RelativeToolTip": "OnlineBookStore.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T00:27:14.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\DBContext\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "OnlineBookStore.Infra\\DBContext\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore.Infra\\DBContext\\ApplicationDBContext.cs",
+              "RelativeToolTip": "OnlineBookStore.Infra\\DBContext\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T00:26:57.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OnlineBookStore\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pavik\\HandsOn\\OnlineBookStore_FSD\\OnlineBookStore\\OnlineBookStore\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OnlineBookStore\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwFYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T00:22:26.346Z",
+              "EditorCaption": ""
             }
           ]
         }

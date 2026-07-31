@@ -29,7 +29,11 @@ export class Login {
         //console.log('res.user.id -- ' + res.user.id);
         localStorage.setItem('onlineBookStoreUsr', res.user.id);
         localStorage.setItem('onlineBookStoreUsrToken', res.token);
-        this.router.navigateByUrl('book');
+        if (res.user.role == 'Admin') {
+          this.router.navigateByUrl('book');
+        } else {
+          this.router.navigateByUrl('booklist');
+        }
       },
       (error) => {
         //debugger;
