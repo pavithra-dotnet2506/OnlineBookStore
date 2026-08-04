@@ -66,6 +66,4 @@ jobs:
           app-name: 'onlinebookstore-api-2506'
           slot-name: 'Production'
           package: ./publish
-          slot-name: 'Production'
-          package: .
           
