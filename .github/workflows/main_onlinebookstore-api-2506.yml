@@ -22,9 +22,12 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '9.x'
+      
+      - name: Restore
+        run: dotnet restore ./OnlineBookStore/OnlineBookStore.sln
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+      - name: Build .NET API
+        run: dotnet build ./OnlineBookStore/OnlineBookStore/OnlineBookStore.API.csproj --configuration Release --no-restore
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
