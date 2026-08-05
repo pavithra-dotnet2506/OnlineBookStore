@@ -11,7 +11,7 @@ using OnlineBookStore.Infra.DBContext;
 namespace OnlineBookStore.Infra.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20260728213113_InitialMigration")]
+    [Migration("20260804204355_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -47,6 +47,9 @@ namespace OnlineBookStore.Infra.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
@@ -66,6 +69,7 @@ namespace OnlineBookStore.Infra.Migrations
                             CategoryId = 1,
                             Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "SWD9999001",
+                            ImageUrl = "",
                             Price = 90.0,
                             Title = "Fortune of Time"
                         },
@@ -76,6 +80,7 @@ namespace OnlineBookStore.Infra.Migrations
                             CategoryId = 1,
                             Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "CAW777777701",
+                            ImageUrl = "",
                             Price = 30.0,
                             Title = "Dark Skies"
                         },
@@ -86,6 +91,7 @@ namespace OnlineBookStore.Infra.Migrations
                             CategoryId = 1,
                             Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "RITO5555501",
+                            ImageUrl = "",
                             Price = 50.0,
                             Title = "Vanish in the Sunset"
                         },
@@ -96,6 +102,7 @@ namespace OnlineBookStore.Infra.Migrations
                             CategoryId = 2,
                             Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "WS3333333301",
+                            ImageUrl = "",
                             Price = 65.0,
                             Title = "Cotton Candy"
                         },
@@ -106,6 +113,7 @@ namespace OnlineBookStore.Infra.Migrations
                             CategoryId = 2,
                             Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "SOTJ1111111101",
+                            ImageUrl = "",
                             Price = 27.0,
                             Title = "Rock in the Ocean"
                         },
@@ -116,6 +124,7 @@ namespace OnlineBookStore.Infra.Migrations
                             CategoryId = 3,
                             Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "FOT000000001",
+                            ImageUrl = "",
                             Price = 23.0,
                             Title = "Leaves and Wonders"
                         });
@@ -175,6 +184,10 @@ namespace OnlineBookStore.Infra.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("User");
@@ -185,14 +198,16 @@ namespace OnlineBookStore.Infra.Migrations
                             Id = 1,
                             Email = "admin@test.com",
                             Name = "Admin",
-                            Password = "admin@123"
+                            Password = "admin@123",
+                            Role = "Admin"
                         },
                         new
                         {
                             Id = 2,
                             Email = "customer@test.com",
                             Name = "Customer",
-                            Password = "cust@123"
+                            Password = "cust@123",
+                            Role = "Customer"
                         });
                 });
 #pragma warning restore 612, 618

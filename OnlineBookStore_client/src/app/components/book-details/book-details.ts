@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Category } from '../../service/category';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-book-details',
@@ -11,6 +12,8 @@ import { Category } from '../../service/category';
 })
 export class BookDetails implements OnInit {
   bookId!: number;
+
+  apiUrl = environment.apiUrl;
   //book: any;
   book: any = {
     id: 0,
@@ -45,7 +48,7 @@ export class BookDetails implements OnInit {
   // }
 
   getBookById(id: number) {
-    this.http.get(`https://localhost:7016/api/book/${id}`).subscribe({
+    this.http.get(this.apiUrl + `/book/${id}`).subscribe({
       next: (res: any) => {
         console.log(res.data);
 

@@ -14,4 +14,6 @@ obj/
 node_modules/
 
 # Angular build output
+.angular/
 dist/
+appsettings.Development.json

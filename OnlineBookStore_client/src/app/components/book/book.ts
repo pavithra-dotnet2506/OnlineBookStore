@@ -6,6 +6,7 @@ import { ChangeDetectorRef } from '@angular/core';
 import { ElementRef, ViewChild } from '@angular/core';
 import { Category } from '../../service/category';
 import { ToastrService } from 'ngx-toastr';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-book',
@@ -23,7 +24,8 @@ export class Book implements OnInit {
 
   selectedFile!: File | null;
 
-  apiUrl = 'https://localhost:7016/api/';
+  //apiUrl = 'https://localhost:7016/api/';
+  apiUrl = environment.apiUrl;
 
   bookList: any[] = [];
   categoryList: any[] = [];
@@ -81,8 +83,8 @@ export class Book implements OnInit {
   // }
 
   getBooks() {
-    console.log('getbooks - ' + this.apiUrl + 'book');
-    this.http.get<any>(this.apiUrl + 'book').subscribe({
+    console.log('getbooks - ' + this.apiUrl + '/book');
+    this.http.get<any>(this.apiUrl + '/book').subscribe({
       next: (res) => {
         console.log('Response:', res);
         console.log('Data:', res.data);
@@ -106,7 +108,7 @@ export class Book implements OnInit {
     });
   }
   getCategory1() {
-    this.http.get<any>(this.apiUrl + 'category').subscribe({
+    this.http.get<any>(this.apiUrl + '/category').subscribe({
       next: (res) => {
         console.log('Response:', res);
         console.log('Data:', res.data);
@@ -161,7 +163,7 @@ export class Book implements OnInit {
     }
     console.log('formData -- ' + formData);
     //this.http.post(this.apiUrl + 'book', this.bookObj).subscribe(() => {
-    this.http.post(this.apiUrl + 'book', formData).subscribe(() => {
+    this.http.post(this.apiUrl + '/book', formData).subscribe(() => {
       //alert('Book Added');
       this.toastr.success('Book Added Successfully!', 'Success');
       //this.toastr.error('Failed to add book.', 'Error');
@@ -177,7 +179,7 @@ export class Book implements OnInit {
   }
 
   updateBook() {
-    this.http.put(`${this.apiUrl + 'book'}/${this.bookObj.id}`, this.bookObj).subscribe(() => {
+    this.http.put(`${this.apiUrl + '/book'}/${this.bookObj.id}`, this.bookObj).subscribe(() => {
       //alert('Updated Successfully');
       this.toastr.success('Book Updated Successfully!', 'Success');
       this.resetForm();
@@ -187,7 +189,7 @@ export class Book implements OnInit {
 
   deleteBook(id: number) {
     if (confirm('Delete this book?')) {
-      this.http.delete(`${this.apiUrl + 'book'}/${id}`).subscribe(() => {
+      this.http.delete(`${this.apiUrl + '/book'}/${id}`).subscribe(() => {
         //alert('Deleted');
         this.toastr.success('Book Deleted Successfully!', 'Success');
 

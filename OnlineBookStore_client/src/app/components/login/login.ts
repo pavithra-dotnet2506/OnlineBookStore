@@ -3,6 +3,8 @@ import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Footer } from '../layout/footer/footer';
+import { environment } from '../../../environments/environment';
+import { ApiEndpoints } from '../../core/constants/api.constants';
 
 @Component({
   selector: 'app-login',
@@ -16,13 +18,14 @@ export class Login {
     password: '',
   };
 
-  apiUrl = 'https://localhost:7016/api/';
+  //apiUrl = 'https://localhost:7016/api/';
+  apiUrl = environment.apiUrl;
   router = inject(Router);
 
   constructor(private http: HttpClient) {}
 
   onLogin() {
-    this.http.post(this.apiUrl + 'auth/login', this.loginObj).subscribe(
+    this.http.post(this.apiUrl + '/auth/login', this.loginObj).subscribe(
       //this.http.post('https://projectapi.gerasim.in/api/UserApp/login', this.apiLoginObj).subscribe(
       (res: any) => {
         debugger;

@@ -1,4 +1,5 @@
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.Infra.deps.json
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.Infra.runtimeconfig.json
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.Infra.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.Infra.pdb
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.App.dll
@@ -10,11 +11,10 @@ C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.AssemblyInfoInputs.cache
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.AssemblyInfo.cs
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.csproj.CoreCompileInputs.cache
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.sourcelink.json
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBo.70466D8B.Up2Date
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\refint\OnlineBookStore.Infra.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.pdb
-C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\ref\OnlineBookStore.Infra.dll
-C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\bin\Debug\net9.0\OnlineBookStore.Infra.runtimeconfig.json
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.genruntimeconfig.cache
-C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\OnlineBookStore.Infra.sourcelink.json
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.Infra\obj\Debug\net9.0\ref\OnlineBookStore.Infra.dll

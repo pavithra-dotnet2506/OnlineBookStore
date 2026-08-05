@@ -13,13 +13,31 @@ namespace OnlineBookStore
             // Add services to the container.
 
             builder.Services.AddDbContext<ApplicationDBContext>(options => 
-                options.UseSqlServer(builder.Configuration.GetConnectionString("dbConn")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("dbConn"), 
+                sqlOptions => sqlOptions.EnableRetryOnFailure()
+                ));
 
+            //Don't use AllowAnyOrigin() as your permanent production configuration.
+            /*
             builder.Services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy", policy =>
                 {
                     policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("*");
+                });
+            });*/
+
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.WithOrigins(
+                        "http://localhost:4200",
+                        "https://onlinebookstore-api-2506-fbf7ehc7hza4aebn.centralus-01.azurewebsites.net"
+                    )
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
                 });
             });
 

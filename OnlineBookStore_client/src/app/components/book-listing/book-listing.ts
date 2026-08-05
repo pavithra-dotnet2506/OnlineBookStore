@@ -4,6 +4,7 @@ import { ChangeDetectorRef, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { Category } from '../../service/category';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-book-listing',
@@ -12,7 +13,8 @@ import { Category } from '../../service/category';
   styleUrl: './book-listing.css',
 })
 export class BookListing {
-  apiUrl = 'https://localhost:7016/api/';
+  //apiUrl = 'https://localhost:7016/api/';
+  apiUrl = environment.apiUrl;
   bookList: any[] = [];
   categoryList: any[] = [];
   categoryMap: { [key: number]: string } = {};
@@ -49,8 +51,8 @@ export class BookListing {
   }
 
   getBooks() {
-    console.log('getbooks - ' + this.apiUrl + 'book');
-    this.http.get<any>(this.apiUrl + 'book').subscribe({
+    console.log('getbooks - ' + this.apiUrl + '/book');
+    this.http.get<any>(this.apiUrl + '/book').subscribe({
       next: (res) => {
         console.log('Response:', res);
         console.log('Data:', res.data);

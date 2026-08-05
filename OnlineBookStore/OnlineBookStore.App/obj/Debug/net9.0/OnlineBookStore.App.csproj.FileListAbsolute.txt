@@ -8,9 +8,9 @@ C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\o
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.AssemblyInfoInputs.cache
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.AssemblyInfo.cs
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.csproj.CoreCompileInputs.cache
+C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.sourcelink.json
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBo.5DBFF373.Up2Date
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\refint\OnlineBookStore.App.dll
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.pdb
 C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\ref\OnlineBookStore.App.dll
-C:\Users\pavik\HandsOn\OnlineBookStore_FSD\OnlineBookStore\OnlineBookStore.App\obj\Debug\net9.0\OnlineBookStore.App.sourcelink.json
