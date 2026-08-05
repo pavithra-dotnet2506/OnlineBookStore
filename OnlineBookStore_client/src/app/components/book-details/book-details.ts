@@ -14,6 +14,7 @@ export class BookDetails implements OnInit {
   bookId!: number;
 
   apiUrl = environment.apiUrl;
+  imgUrl = environment.imageUrl;
   //book: any;
   book: any = {
     id: 0,

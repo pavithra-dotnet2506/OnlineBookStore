@@ -5,10 +5,9 @@
         <!-- Image -->
 
         <div class="col-lg-4">
-          <img
-            [src]="'https://localhost:7016/Images/' + this.book?.imageUrl"
-            class="img-fluid rounded-start w-100 h-100"
-          />{{ this.book.imageUrl }}
+          <img [src]="imgUrl + this.book?.imageUrl" class="img-fluid rounded-start w-100 h-100" />{{
+            this.book.imageUrl
+          }}
         </div>
 
         <!-- Details -->
