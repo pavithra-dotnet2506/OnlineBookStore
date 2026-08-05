@@ -15,6 +15,7 @@ import { environment } from '../../../environments/environment';
 export class BookListing {
   //apiUrl = 'https://localhost:7016/api/';
   apiUrl = environment.apiUrl;
+  imageUrl = environment.imageUrl;
   bookList: any[] = [];
   categoryList: any[] = [];
   categoryMap: { [key: number]: string } = {};
