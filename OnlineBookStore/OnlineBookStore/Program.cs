@@ -34,7 +34,7 @@ namespace OnlineBookStore
                 {
                     policy.WithOrigins(
                         "http://localhost:4200",
-                        "https://onlinebookstore-api-2506-fbf7ehc7hza4aebn.centralus-01.azurewebsites.net"
+                        "https://witty-bay-0e813b410.7.azurestaticapps.net"                        
                     )
                     .AllowAnyHeader()
                     .AllowAnyMethod();
